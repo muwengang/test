@@ -15,7 +15,6 @@ char *my_strstr(char *src, char *search){
 	char *temp_search = search;
 	int len = my_strlen(search);
 	int len1 = my_strlen(src);
-	printf("len = %d,len2= %d",len, len1);
 	int i = 0, j = 0;
 	while(temp_src != '\0' && j < len1){
 		if(*temp_src == *temp_search){
@@ -26,10 +25,7 @@ char *my_strstr(char *src, char *search){
 					break;
 				}
 				i++;
-				
-					printf("i = %d\n",i);
 			}
-					printf("j = %d\n",j);
 			if(i != 0)
 				return temp_src;
 		}
