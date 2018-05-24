@@ -1,0 +1,4 @@
+#ifndef CONCRETE_PRODUCT_H
+#define CONCRETE_PRODUCT_H
+
+#endif
